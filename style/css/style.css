@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'merriweather', serif;
+}
+.yas{
+    font-size: 40px;
+}
+
+html ::-webkit-scrollbar-track{
+    background: transparent;
+}
+html ::-webkit-scrollbar-thumb{
+    background: white;
+    border-radius: 10px;
+}
+html ::-webkit-scrollbar{
+    width: 10px;
+}
+#navbar{
+    background-color: gray;
+}
+.nav-item .nav-link{
+    transition: 0.5s;
+}
+.nav-item .nav-link:hover{
+    background: white;
+    border-radius: 5px;
+}
+
+.nab:hover{
+    background: white;
+    border-radius: 5px;
+}
+.nab1:hover{
+    transform: scaleY(1.03);
+}
+.nab1{
+    transition: 1.5s;
+}
+.ob a{
+    text-decoration: none;
+}
+.ob a:hover{
+    text-decoration: underline;
+}
+.div1 a{
+    text-decoration: none;
+}
+.div1 a ul a{
+   list-style-type: none;
+}
+.section1{
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(../../style/image/logos/chariot);       
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70%;
+    margin-top: 60px;
+}
+.div2{
+    padding-top: 70px;
+    margin-left: 40px;
+}
+.div2 h3{
+    font-size: 40px;
+}
+.div2 button{
+    transition: 0.5s ease;
+    cursor: pointer
+}
+.section2 div{
+    background-color: gray;
+    font-size: 40px;
+}
+/* .section3{
+    background-color: gray;
+} */
+.section3 a{
+    list-style-type: none;
+    text-decoration: none;
+}
+.section3 nav{
+    background-color: gray;
+}
+.h4{
+    font-size: 35px;
+    margin-top: 50px
+}
+.div3{
+    margin-top: 100px;
+}
+.div3 img{
+    width: 35px;
+    border-radius: 100px;
+    height: 35px;
+    margin-let: 50px;
+}
+.div3 i{
+    color: yellow;
+}
+.div4{
+    margin-left: 170px;
+}
+.div3 span{
+    text-decoration: underline;
+}
+.div5{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.div6{
+    display: flex;
+    background-color: gray;
+}
+.abc{
+    background-color: gray;
+}
+.abc i{
+    font-size: 40px;
+}
+.ddd img{
+    width: 100%;
+    height: 265px;
+}
+.cardimg:hover{
+    transform: scaleY(1.04);   
+}
+.cardimg{
+    transition: 1.5s;
+}
+.qqq{
+    margin-left: 75px;
+}
+.yas{
+    transition: 3s;
+}
+.yas:hover{
+    transform: scaleY(1.06);
+    
+}
